@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FullScreenImage component should render snapshot correctly 1`] = `
+<div
+  className="fullscreen-container show"
+  id="fullscreen-container"
+>
+  <img
+    alt="url"
+    src="url"
+  />
+</div>
+`;

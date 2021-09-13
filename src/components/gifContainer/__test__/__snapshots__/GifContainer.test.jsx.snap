@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifContainer Component should render snapshot correctly 1`] = `
+<div
+  className="img-container"
+  data-testid="gif-container-id"
+  onClick={[MockFunction]}
+>
+  <img
+    alt="title"
+    src="url"
+  />
+</div>
+`;

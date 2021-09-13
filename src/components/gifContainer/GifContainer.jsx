@@ -2,7 +2,7 @@ import React from 'react';
 
 const GifContainer = React.forwardRef(({ url, title, onclick }, ref) => {
   return (
-    <div className="img-container" ref={ref} onClick={onclick}>
+    <div data-testid="gif-container-id" className="img-container" ref={ref} onClick={onclick}>
       <img src={url} alt={title} />
     </div>
   );

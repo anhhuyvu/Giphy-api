@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test snapshot render cards 1`] = `
+<div
+  className="gif-page-container"
+>
+  <h1
+    className="d-flex justify-content-center"
+  >
+    <b>
+      Trending Gifs
+    </b>
+  </h1>
+  <div
+    className="giphy-container"
+  >
+    <GifContainer
+      onclick={[Function]}
+      title="title1"
+      url="url1"
+    />
+    <GifContainer
+      onclick={[Function]}
+      title="title2"
+      url="url2"
+    />
+    <GifContainer
+      onclick={[Function]}
+      title="title3"
+      url="url3"
+    />
+  </div>
+  <div
+    className="fullscreen-container "
+    id="fullscreen-container"
+  >
+    <img
+      alt=""
+      src=""
+    />
+  </div>
+</div>
+`;
+
+exports[`test snapshot render loading state 1`] = `
+<div
+  className="gif-page-container"
+>
+  <div
+    className="spinner-container"
+  >
+    <div
+      className="lds-roller"
+    >
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+    </div>
+  </div>
+  <h1
+    className="d-flex justify-content-center"
+  >
+    <b>
+      Trending Gifs
+    </b>
+  </h1>
+  <div
+    className="giphy-container"
+  />
+  <div
+    className="fullscreen-container "
+    id="fullscreen-container"
+  >
+    <img
+      alt=""
+      src=""
+    />
+  </div>
+</div>
+`;
